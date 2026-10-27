@@ -3,7 +3,7 @@
 # Run once from the project root:  bash setup.sh
 set -e
 
-flutter create --platforms=android --project-name study_assistant_cloud --org com.studyassistantcloud .
+flutter create --platforms=android --project-name study --org com.mohamed5946 .
 rm -rf test
 
 MANIFEST=android/app/src/main/AndroidManifest.xml
@@ -14,7 +14,7 @@ if ! grep -q "android.permission.INTERNET" "$MANIFEST"; then
 fi
 
 # App name shown under the icon.
-sed -i.bak 's#android:label="[^"]*"#android:label="Study Assistant Cloud"#' "$MANIFEST"
+sed -i.bak 's#android:label="[^"]*"#android:label="Study"#' "$MANIFEST"
 rm -f "$MANIFEST.bak"
 
 flutter pub get

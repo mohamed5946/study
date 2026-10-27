@@ -94,7 +94,7 @@ class MorePage extends ConsumerWidget {
           child: Row(
             children: [
               Icon(
-                AppConfig.demo ? Icons.science_outlined : Icons.cloud_done_rounded,
+                AppConfig.demo ? Icons.science_outlined : Icons.check_circle_rounded,
               ),
               const SizedBox(width: 12),
               Expanded(

@@ -14,7 +14,7 @@ class StudentAssistantApp extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final s = ref.watch(settingsProvider);
     return MaterialApp(
-      title: 'Study Assistant Cloud',
+      title: 'Study',
       debugShowCheckedModeBanner: false,
       locale: Locale(s.lang),
       supportedLocales: const [Locale('ar'), Locale('en')],

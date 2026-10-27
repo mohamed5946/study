@@ -31,7 +31,7 @@ class Tr {
 
   static const Map<String, Map<String, String>> _s = {
     'en': {
-      'app_name': 'Study Assistant Cloud',
+      'app_name': 'Study',
       'home': 'Home',
       'schedule': 'Schedule',
       'ai': 'AI',
@@ -117,7 +117,7 @@ class Tr {
       'back': 'Back',
     },
     'ar': {
-      'app_name': 'Study Assistant Cloud',
+      'app_name': 'Study',
       'home': 'الرئيسية',
       'schedule': 'الجدول',
       'ai': 'المساعد',

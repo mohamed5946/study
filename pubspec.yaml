@@ -1,4 +1,4 @@
-name: study_assistant_cloud
+name: study
 description: Student Assistant - AI study helper for university students.
 publish_to: 'none'
 version: 1.0.0+1

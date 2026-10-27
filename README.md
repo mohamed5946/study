@@ -1,4 +1,4 @@
-# Student Assistant (Phase 1)
+# Study (Phase 1)
 
 Flutter app for Android. Liquid Glass design, Arabic/English (RTL), dark/light mode.
 
